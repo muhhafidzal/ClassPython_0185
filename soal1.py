@@ -27,3 +27,5 @@ class Rectangle:
 
 rect = Rectangle(3, 2)
 print(rect)
+print("Circumference:", rect.circumference(), "cm")
+print("Area:", rect.area(), "cm2")
