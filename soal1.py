@@ -29,3 +29,8 @@ rect = Rectangle(3, 2)
 print(rect)
 print("Circumference:", rect.circumference(), "cm")
 print("Area:", rect.area(), "cm2")
+
+try:
+    Rectangle(0, 2)
+except ValueError as e:
+    print("Error:", e)
