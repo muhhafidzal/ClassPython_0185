@@ -15,3 +15,6 @@ class Rectangle:
             raise ValueError("Length and width cannot be 0")
         self.length = length
         self.width = width
+
+    def circumference(self):
+        return 2 * (self.length + self.width)
