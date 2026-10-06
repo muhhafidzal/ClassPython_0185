@@ -8,3 +8,7 @@
 #Rectangle program
 class Rectangle:
     pass
+
+class Rectangle:
+    def __init__(self, length, width):
+        pass
