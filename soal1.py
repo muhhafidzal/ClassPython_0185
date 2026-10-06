@@ -11,4 +11,5 @@ class Rectangle:
 
 class Rectangle:
     def __init__(self, length, width):
-        pass
+        self.length = length
+        self.width = width
